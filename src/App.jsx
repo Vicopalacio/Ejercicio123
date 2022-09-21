@@ -1,6 +1,10 @@
+import Ejercicio1 from "./Ejercicio1";
+
 function App() {
+  let holaAmigo = "my friend";
+
   return (
-    <h1>Hola Mundo</h1>
+   <Ejercicio1 holafriend={holaAmigo}></Ejercicio1>
   );
 }
 
